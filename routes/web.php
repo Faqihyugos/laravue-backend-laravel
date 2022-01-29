@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,7 @@ Route::get('/', [DashboardController::class, 'index']);
 
 Auth::routes(['register' => false]);
 
+Route::get('products/{id}/gallery', [ProductController::class, 'gallery'])
+    ->name('products.gallery');
+    
+Route::resource('products', ProductController::class);
