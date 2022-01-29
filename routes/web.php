@@ -15,3 +15,6 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', [DashboardController::class, 'index']);
+
+Auth::routes(['register' => false]);
+
