@@ -29,5 +29,9 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Doc Project
 
+### Test Postman
+
+https://documenter.getpostman.com/view/14062687/UyrBjGHh
+
 ### Schema DB
 ![schema Database](https://github.com/Faqihyugos/laravue-backend-laravel/blob/main/public/Diagram-ecommerce.jpg)
