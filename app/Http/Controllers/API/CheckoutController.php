@@ -23,10 +23,10 @@ class CheckoutController extends Controller
             $details[] = new TransactionDetail([
                 'transaction_id' => $transaction->id,
                 'products_id' => $product, 
-            ])
+            ]);
             
             // mengurangi stok
-            Product::find($product)->decrement('quantity')
+            Product::find($product)->decrement('quantity');
         }
 
 
